@@ -14,6 +14,4 @@ Note: dev/bundle*.js etc have been committed purely to have a complete example. 
 
 ## Build for production
 `npm run-script build-static`
-# xeniaayunova-com # xeniaayunova-com
-# xeniaayunova-com
 # xeniaayunova-com
