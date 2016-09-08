@@ -1,4 +1,4 @@
-## In The Begining
+## In The Beginning
 
 It all started off so well.
 

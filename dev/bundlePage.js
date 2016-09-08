@@ -22905,7 +22905,7 @@ module.exports =
 /* 203 */
 /***/ function(module, exports) {
 
-	module.exports = "<h2 id=\"in-the-begining\">In The Begining</h2>\n<p>It all started off so well.</p>\n<ul>\n<li>then one thing happened</li>\n<li>and another</li>\n<li>and another</li>\n</ul>\n"
+	module.exports = "<h2 id=\"in-the-beginning\">In The Beginning</h2>\n<p>It all started off so well.</p>\n<ul>\n<li>then one thing happened</li>\n<li>and another</li>\n<li>and another</li>\n</ul>\n"
 
 /***/ },
 /* 204 */
@@ -25152,13 +25152,13 @@ module.exports =
 	                    weekdayOverflow = true;
 	                }
 	            } else if (w.e != null) {
-	                // local weekday -- counting starts from begining of week
+	                // local weekday -- counting starts from beginning of week
 	                weekday = w.e + dow;
 	                if (w.e < 0 || w.e > 6) {
 	                    weekdayOverflow = true;
 	                }
 	            } else {
-	                // default to begining of week
+	                // default to beginning of week
 	                weekday = dow;
 	            }
 	        }
