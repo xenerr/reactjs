@@ -3916,7 +3916,7 @@ module.exports =
 	  Mixin: Mixin,
 
 	  /**
-	   * Token to look for to determine if an error occured.
+	   * Token to look for to determine if an error occurred.
 	   */
 	  OBSERVED_ERROR: {}
 
@@ -13589,7 +13589,7 @@ module.exports =
 	      ) : invariant(!INVALID_PROPERTY_ERRORS.hasOwnProperty(name)));
 
 	      // If we're updating to null or undefined, we should remove the property
-	      // from the DOM node instead of inadvertantly setting to a string. This
+	      // from the DOM node instead of inadvertently setting to a string. This
 	      // brings us in line with the same behavior we have on initial render.
 	      if (value != null) {
 	        DOMPropertyOperations.setValueForProperty(node, name, value);
@@ -14681,7 +14681,7 @@ module.exports =
 
 	  /**
 	   * @param {boolean} previouslyEnabled Enabled status of
-	   *   `ReactBrowserEventEmitter` before the reconciliation occured. `close`
+	   *   `ReactBrowserEventEmitter` before the reconciliation occurred. `close`
 	   *   restores the previous value.
 	   */
 	  close: function(previouslyEnabled) {
@@ -22905,7 +22905,7 @@ module.exports =
 /* 203 */
 /***/ function(module, exports) {
 
-	module.exports = "<h2 id=\"in-the-begining\">In The Begining</h2>\n<p>It all started off so well.</p>\n<ul>\n<li>then one thing happened</li>\n<li>and another</li>\n<li>and another</li>\n</ul>\n"
+	module.exports = "<h2 id=\"in-the-beginning\">In The Beginning</h2>\n<p>It all started off so well.</p>\n<ul>\n<li>then one thing happened</li>\n<li>and another</li>\n<li>and another</li>\n</ul>\n"
 
 /***/ },
 /* 204 */
@@ -25152,13 +25152,13 @@ module.exports =
 	                    weekdayOverflow = true;
 	                }
 	            } else if (w.e != null) {
-	                // local weekday -- counting starts from begining of week
+	                // local weekday -- counting starts from beginning of week
 	                weekday = w.e + dow;
 	                if (w.e < 0 || w.e > 6) {
 	                    weekdayOverflow = true;
 	                }
 	            } else {
-	                // default to begining of week
+	                // default to beginning of week
 	                weekday = dow;
 	            }
 	        }
@@ -34057,7 +34057,7 @@ module.exports =
 	    };
 
 	    var pa_in = moment.defineLocale('pa-in', {
-	        // There are months name as per Nanakshahi Calender but they are not used as rigidly in modern Punjabi.
+	        // There are months name as per Nanakshahi Calendar but they are not used as rigidly in modern Punjabi.
 	        months : 'ਜਨਵਰੀ_ਫ਼ਰਵਰੀ_ਮਾਰਚ_ਅਪ੍ਰੈਲ_ਮਈ_ਜੂਨ_ਜੁਲਾਈ_ਅਗਸਤ_ਸਤੰਬਰ_ਅਕਤੂਬਰ_ਨਵੰਬਰ_ਦਸੰਬਰ'.split('_'),
 	        monthsShort : 'ਜਨਵਰੀ_ਫ਼ਰਵਰੀ_ਮਾਰਚ_ਅਪ੍ਰੈਲ_ਮਈ_ਜੂਨ_ਜੁਲਾਈ_ਅਗਸਤ_ਸਤੰਬਰ_ਅਕਤੂਬਰ_ਨਵੰਬਰ_ਦਸੰਬਰ'.split('_'),
 	        weekdays : 'ਐਤਵਾਰ_ਸੋਮਵਾਰ_ਮੰਗਲਵਾਰ_ਬੁਧਵਾਰ_ਵੀਰਵਾਰ_ਸ਼ੁੱਕਰਵਾਰ_ਸ਼ਨੀਚਰਵਾਰ'.split('_'),
