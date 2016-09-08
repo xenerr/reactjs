@@ -2260,7 +2260,7 @@
 	// In theory, ws should require 1 round trip. But in chrome, this is
 	// not very stable over SSL. Most likely a ws connection requires a
 	// separate SSL connection, in which case 2 round trips are an
-	// absolute minumum.
+	// absolute minimum.
 	WebSocketTransport.roundTrips = 2;
 
 	module.exports = WebSocketTransport;
